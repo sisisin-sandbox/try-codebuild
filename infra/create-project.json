@@ -1,8 +1,8 @@
 {
   "name": "codebuild-demo-project-simenyan",
   "source": {
-    "type": "S3",
-    "location": "codebuild-simenyan-input-bucket/MessageUtil.zip"
+    "type": "GITHUB",
+    "location": "https://github.com/sisisin-sandbox/try-codebuild"
   },
   "artifacts": {
     "type": "S3",

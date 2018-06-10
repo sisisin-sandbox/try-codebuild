@@ -14,27 +14,6 @@
       ]
     },
     {
-      "Sid": "CodeCommitPolicy",
-      "Effect": "Allow",
-      "Action": [
-        "codecommit:GitPull"
-      ],
-      "Resource": [
-        "*"
-      ]
-    },
-    {
-      "Sid": "S3GetObjectPolicy",
-      "Effect": "Allow",
-      "Action": [
-        "s3:GetObject",
-        "s3:GetObjectVersion"
-      ],
-      "Resource": [
-        "*"
-      ]
-    },
-    {
       "Sid": "S3PutObjectPolicy",
       "Effect": "Allow",
       "Action": [
