@@ -14,6 +14,7 @@ aws codebuild create-webhook --cli-input-json file://create-webhook.json
 
 ```console
 cd path/to/try-codebuild/infra
+aws iam put-role-policy --role-name SimenyanCodeBuildServiceRole --policy-name SimenyanCodeBuildServiceRolePolicy --policy-document file://put-role-policy.json
 aws codebuild update-project --cli-input-json file://create-project.json
 aws codebuild update-webhook --cli-input-json file://create-webhook.json
 ```
