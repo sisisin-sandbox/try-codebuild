@@ -1,0 +1,12 @@
+{
+  "name": "try-codebuild-infra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx cloudform index.ts"
+  },
+  "dependencies": {
+    "cloudform": "^2.0.1"
+  }
+}
